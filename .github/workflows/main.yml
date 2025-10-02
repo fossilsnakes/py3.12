@@ -5,7 +5,7 @@ on:
 
 jobs:
   main:
-    uses: deadsnakes/runbooks/.github/workflows/update-meta-gbp.yml@main
+    uses: fossilsnakes/runbooks/.github/workflows/update-meta-gbp.yml@main
     with:
       dists-json: '["focal", "jammy"]'
     secrets: inherit
