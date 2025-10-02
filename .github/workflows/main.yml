@@ -1,6 +1,6 @@
 on:
-  schedule:
-    - cron: '45 8 * * *'
+  # schedule:
+  #   - cron: '45 8 * * *'
   workflow_dispatch:
 
 jobs:
